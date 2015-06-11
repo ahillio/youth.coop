@@ -1,0 +1,4 @@
+# Modules that are patched
+Particular care should be given if updating any of these:
+- media -- patched to enable plupload on multivalue image fields
+- linkit_views -- patched to work with linkit-3.x

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ahillios_facebook_feed.features.user_permission.inc
+ * youth_facebook_feed.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function ahillios_facebook_feed_user_default_permissions() {
+function youth_facebook_feed_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create facebook_post content'.

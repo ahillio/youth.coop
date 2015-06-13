@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ahillios_facebook_feed.strongarm.inc
+ * youth_facebook_feed.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function ahillios_facebook_feed_strongarm() {
+function youth_facebook_feed_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

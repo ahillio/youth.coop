@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ahillios_facebook_feed.views_default.inc
+ * youth_facebook_feed.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function ahillios_facebook_feed_views_default_views() {
+function youth_facebook_feed_views_default_views() {
   $export = array();
 
   $view = new view();

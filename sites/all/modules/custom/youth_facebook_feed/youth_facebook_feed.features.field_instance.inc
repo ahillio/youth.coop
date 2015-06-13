@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ahillios_facebook_feed.features.field_instance.inc
+ * youth_facebook_feed.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function ahillios_facebook_feed_field_default_field_instances() {
+function youth_facebook_feed_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-facebook_post-body'

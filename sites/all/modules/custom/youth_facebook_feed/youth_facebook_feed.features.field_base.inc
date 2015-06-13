@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ahillios_facebook_feed.features.field_base.inc
+ * youth_facebook_feed.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function ahillios_facebook_feed_field_default_field_bases() {
+function youth_facebook_feed_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'body'

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the youth_wysiwyg feature.
+ */
+
+include_once 'youth_wysiwyg.features.inc';

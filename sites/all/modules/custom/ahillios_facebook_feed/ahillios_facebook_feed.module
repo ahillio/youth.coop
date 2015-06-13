@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ahillio's Facebook Feed feature.
+ */
+
+include_once 'ahillios_facebook_feed.features.inc';

@@ -15,7 +15,7 @@ function youth_facebook_feed_feeds_importer_default() {
   $feeds_importer->api_version = 1;
   $feeds_importer->id = 'facebook_rss_parser';
   $feeds_importer->config = array(
-    'name' => 'facebook - rss parser',
+    'name' => 'facebook - main',
     'description' => '',
     'fetcher' => array(
       'plugin_key' => 'FeedsHTTPFetcher',
@@ -24,8 +24,6 @@ function youth_facebook_feed_feeds_importer_default() {
         'use_pubsubhubbub' => FALSE,
         'designated_hub' => '',
         'request_timeout' => NULL,
-        'auto_scheme' => 'http',
-        'accept_invalid_cert' => FALSE,
       ),
     ),
     'parser' => array(
@@ -56,18 +54,17 @@ function youth_facebook_feed_feeds_importer_default() {
           ),
         ),
         'update_existing' => '0',
-        'update_non_existent' => 'skip',
-        'input_format' => 'plain_text',
+        'input_format' => 'html',
         'skip_hash_check' => 0,
         'bundle' => 'facebook_post',
       ),
     ),
     'content_type' => '',
     'update' => 0,
-    'import_period' => 1800,
+    'import_period' => '1800',
     'expire_period' => 3600,
-    'import_on_create' => TRUE,
-    'process_in_background' => FALSE,
+    'import_on_create' => 1,
+    'process_in_background' => 0,
   );
   $export['facebook_rss_parser'] = $feeds_importer;
 

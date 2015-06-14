@@ -114,7 +114,9 @@ function youth_wysiwyg_ckeditor_profile_defaults() {
           ),
         ),
       ),
-      'input_formats' => array(),
+      'input_formats' => array(
+        'html' => 'HTML',
+      ),
     ),
   );
   return $data;

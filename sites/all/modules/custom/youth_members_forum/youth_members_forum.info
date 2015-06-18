@@ -1,0 +1,9 @@
+name = youth_members_forum
+core = 7.x
+package = Features
+dependencies[] = civicrm
+dependencies[] = civicrm_entity
+dependencies[] = rules
+dependencies[] = rules_admin
+features[features_api][] = api:2
+features[rules_config][] = rules_create_user_for_new_member

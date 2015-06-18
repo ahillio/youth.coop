@@ -19,6 +19,7 @@ features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[feeds_importer][] = facebook_rss_parser
 features[feeds_tamper][] = facebook_rss_parser-description-find_replace
+features[feeds_tamper][] = facebook_rss_parser-description-find_replace_profile_id
 features[field_base][] = body
 features[field_base][] = field_type_of_post
 features[field_instance][] = node-facebook_post-body
